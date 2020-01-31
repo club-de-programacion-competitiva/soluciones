@@ -1,6 +1,8 @@
 # Alternativa: crear un diccionrio que guarde cada resultado,
 # y en cada iteración verificar si el valor ya existe, para evitar un ciclo infinito
 
+# Este método es muy tardado, con el diccionario es más eficiente
+
 def convert(gold):
     if (int(gold / 2) + int(gold / 3) + int(gold / 4)) <= gold:
         return gold
